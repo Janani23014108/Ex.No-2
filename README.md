@@ -32,7 +32,10 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
+
+ex2.l
 ```
+
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -80,6 +83,19 @@ int yywrap() { return 1; }
 
 
 ```
+
+var.c
+
+```
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    return 0;
+}
+```
+
+
 # OUTPUT
 ![377363660-db92bd64-1fdc-4dd7-afb0-9c8c07e6aaab](https://github.com/user-attachments/assets/845a7f8b-c3d5-4e07-aa2d-42e102ca5913)
 
